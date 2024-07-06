@@ -2,8 +2,8 @@
 
 const DashDisplay = () => {
   return (
-    <div>
-        Dashboard
+    <div className="bg-[#D6EFD8] min-h-[90%]">
+        
     </div>
   )
 }

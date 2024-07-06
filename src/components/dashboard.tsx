@@ -2,8 +2,8 @@ import DashDisplay from "./dashboard-display"
 
 const Dashboard = () => {
   return (
-    <div className=" bg-gray-100 ">
-        <nav className="bg-red-200 h-12">
+    <div className="">
+        <nav className="bg-[#D6EFD8] h-12">
         Navigation
         </nav>
         <DashDisplay/>

@@ -1,11 +1,69 @@
 
 const Sidebar = () => {
   return (
-    <div className="w-full bg-slate-500 border-r-2 border-black">
-        <nav className="bg-red-200 h-12">
-            Logo MIS
-        </nav>
-        <h2>Sidebar</h2>
+    <div className="px-2 pb-10 pt-2">
+        <div className="min-h-[90%] w-full rounded-lg bg-[#80AF81]">
+            <div className="rounded-lg flex bg-[#80AF81] h-12 justify-center items-center mb-2">
+                <div>
+                    Logo MIS
+                </div>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Dashboard
+                </button>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Accounts
+                </button>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Activities
+                </button>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Membership
+                </button>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Transactions
+                </button>
+            </div>
+            <div className="px-3 font-medium text-[#1A5319]">
+                <button className="hover:bg-[#1A5319] hover:text-[#D6EFD8] text-left p-2 rounded-md w-full">
+                    Settings
+                </button>
+            </div>
+            {/* <div>
+                <div>
+                    Accounts
+                </div>
+            </div>
+            <div>
+                <div>
+                    Activities
+                </div>
+            </div>
+            <div>
+                <div>
+                    Membership
+                </div>
+            </div>
+            <div>
+                <div>
+                    Transactions
+                </div>
+            </div>
+            <div>
+                <div>
+                    Settings
+                </div>
+            </div> */}
+        </div>
     </div>
   )
 }
