@@ -7,10 +7,10 @@ const Dashboard = () => {
         <div className="mr-2">
             <div className="w-full bg-[#D6EFD8] my-2 rounded-lg">
                 <div className="h-12 place-content-end items-center flex ">
-                    <header className="flex rounded-lg gap-2 mr-2">
+                    <header className="flex rounded-lg gap-2 mr-2 items-center">
                         <input type="text" className="h-6 rounded-md p-2" placeholder="search" />
-                        <button>
-                            <CircleUser/>
+                        <button className="bg-[#80AF81] rounded-full p-1">
+                            <CircleUser color="#1A5319"/>
                         </button>
                     </header>
                 </div>
